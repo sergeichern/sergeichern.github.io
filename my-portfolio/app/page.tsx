@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -42,6 +43,31 @@ export default function Home() {
             </div>
         </div>
       </div>
+      <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
+        <Link
+          href="/about-me"
+          className="rounded-[20px] group bg-orange-500 px-5 py-3 text-lg text-white max-w-[200px]"
+        >
+          About me 
+        </Link>
+
+        <Link
+          href="/my-projects"
+          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+        >
+          My projects
+        </Link>
+        <Link
+          href="/contact-me"
+          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+        >
+          Contact me
+        </Link>
+      </div>
+
+    
+
+     
     </main>
   );
 }
