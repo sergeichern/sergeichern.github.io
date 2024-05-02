@@ -1,3 +1,4 @@
+
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
@@ -57,8 +58,8 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "C++",
-    Image: "/cpplogo.png",
+    name: "Next",
+    Image: "/nextjslogo.webp",
     width: 80,
     height: 80,
   },
@@ -73,39 +74,20 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Linkedin",
+    src: "/lnlogo.png",
+    
   },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
+  
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "IF-AT Assessment Card Grader",
+    text: "A Java app that uses computer vision (OpenCV) to automatically grade students' IF-AT assessment cards. ",
+    src: "/opencvlogo.jpg",
+    link: "https://github.com/sergeichernit/IFAT_Grading_Application",
   },
-  {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
-  },
-  {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
-  },
-  {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
-  },
+  
 ];
 
 export const NavLinks = [
@@ -124,9 +106,17 @@ export const NavLinks = [
     icon: RxDashboard,
     link: "/my-projects",
   },
+
+ 
+ 
+];
+
+export const Resume = [
+
   {
-    name: "/contact-me",
+    name: "/Resume_Sergei_Chernitsyn_portfolio.pdf",
     icon: RxClipboard,
-    link: "/contact-me",
+    link: "/Resume_Sergei_Chernitsyn_portfolio.pdf"
   },
+ 
 ];

@@ -30,14 +30,11 @@ export default function Home() {
                 My projects
               </Link>
 
-              <Link href="/contact-me" className='rounded-[20px] group relative bg-transparent hover:bg-orange-400 border border-white px-5 py-3 text-lg text-white max-w-[200px]'>
-                <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
-                Contact me
-              </Link>
+            
 
-              <Link href="/my-resume" className='rounded-[20px] group relative bg-transparent hover:bg-orange-400 border border-white px-5 py-3 text-lg text-white max-w-[200px]'>
+              <Link href="/Resume_Sergei_Chernitsyn_portfolio.pdf"  target="_blank" rel="noopener noreferrer" className='rounded-[20px] group relative bg-transparent hover:bg-orange-400 border border-white px-5 py-3 text-lg text-white max-w-[200px]'>
                 <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
-               Resume
+               My Resume
               </Link>
             
             </div>
@@ -58,10 +55,10 @@ export default function Home() {
           My projects
         </Link>
         <Link
-          href="/contact-me"
+          href="/Resume_Sergei_Chernitsyn_portfolio.pdf" target="_blank" rel="noopener noreferrer"
           className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          Contact me
+          My Resume
         </Link>
       </div>
 

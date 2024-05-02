@@ -1,5 +1,5 @@
 "use client";
-import { NavLinks } from "@/constants";
+import { NavLinks, Resume } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -37,6 +37,18 @@ const Navigation = () => {
         <Link key={nav.name} href={nav.link} className="mb-16 pl-4 min-w-[20%]">
           <nav.icon
             className={`w-[24px] h-[24px] ${
+              path === nav.name ? "text-orange-700" : "text-white"
+            }`}
+          />
+        </Link>
+        
+        
+      ))}
+
+{Resume.map((nav) => (
+        <Link href={nav.link} target="_blank" rel="noopener noreferrer" className="mb-16 pl-4 min-w-[20%]">
+          <nav.icon
+            className={`w-[24px] h-[24px]  ${
               path === nav.name ? "text-orange-700" : "text-white"
             }`}
           />
