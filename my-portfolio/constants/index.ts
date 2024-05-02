@@ -72,14 +72,7 @@ export const SkillData = [
   },
 ];
 
-export const Socials = [
-  {
-    name: "Linkedin",
-    src: "/lnlogo.png",
-    
-  },
-  
-];
+
 export const Projects = [
   {
     title: "IF-AT Assessment Card Grader",
