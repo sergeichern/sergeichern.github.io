@@ -46,7 +46,8 @@ const Navigation = () => {
       ))}
 
 {Resume.map((nav) => (
-        <Link href={nav.link} target="_blank" rel="noopener noreferrer" className="mb-16 pl-4 min-w-[20%]">
+       
+        <Link href={nav.link}  key={nav.name} target="_blank" rel="noopener noreferrer" className="mb-16 pl-4 min-w-[20%]">
           <nav.icon
             className={`w-[24px] h-[24px]  ${
               path === nav.name ? "text-orange-700" : "text-white"
