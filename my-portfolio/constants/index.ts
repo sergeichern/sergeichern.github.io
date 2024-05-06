@@ -78,7 +78,7 @@ export const Projects = [
     title: "IF-AT Assessment Card Grader",
     text: "A Java app that uses computer vision (OpenCV) to automatically grade students' IF-AT assessment cards. ",
     src: "/opencvlogo.jpg",
-    link: "https://github.com/sergeichernit/IFAT_Grading_Application",
+    link: "https://github.com/sergeichern/IFAT_Grading_Application",
   },
   
 ];
