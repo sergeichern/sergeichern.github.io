@@ -84,7 +84,7 @@ export const Projects = [
   {
     title: "Trent University Class Finder",
     text: "An application for locating the right classroom on the Trent University Peterborough campus. ",
-    src: "/opencvlogo.jpg",
+    src: "/trent.jpg",
     link: "https://github.com/sergeichern/trent_class_finder",
   }
 
