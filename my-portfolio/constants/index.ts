@@ -80,6 +80,20 @@ export const Projects = [
     src: "/opencvlogo.jpg",
     link: "https://github.com/sergeichern/IFAT_Grading_Application",
   },
+
+  {
+    title: "Trent University Class Finder",
+    text: "An application for locating the right classroom on the Trent University Peterborough campus. ",
+    src: "/opencvlogo.jpg",
+    link: "https://github.com/sergeichern/trent_class_finder",
+  },
+
+  {
+    title: "Trent University Class Finder",
+    text: "An application for locating the right classroom on the Trent University Peterborough campus. ",
+    src: "/opencvlogo.jpg",
+    link: "https://github.com/sergeichern/trent_class_finder",
+  },
   
 ];
 
@@ -107,9 +121,9 @@ export const NavLinks = [
 export const Resume = [
 
   {
-    name: "/Resume_Sergei_Chernitsyn_portfolio.pdf",
+    name: "/Resume_SergeiChernitsyn.pdf",
     icon: RxClipboard,
-    link: "/Resume_Sergei_Chernitsyn_portfolio.pdf"
+    link: "/Resume_SergeiChernitsyn.pdf"
   },
  
 ];
