@@ -32,7 +32,7 @@ export default function Home() {
 
             
 
-              <Link href="/Resume_Sergei_Chernitsyn_portfolio.pdf"  target="_blank" rel="noopener noreferrer" className='rounded-[20px] group relative bg-transparent hover:bg-orange-400 border border-white px-5 py-3 text-lg text-white max-w-[200px]'>
+              <Link href="/SERGEICHERNITSYN.pdf"  target="_blank" rel="noopener noreferrer" className='rounded-[20px] group relative bg-transparent hover:bg-orange-400 border border-white px-5 py-3 text-lg text-white max-w-[200px]'>
                 <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
                My Resume
               </Link>
@@ -55,7 +55,7 @@ export default function Home() {
           My projects
         </Link>
         <Link
-          href="/Resume_Sergei_Chernitsyn_portfolio.pdf" target="_blank" rel="noopener noreferrer"
+          href="/SERGEICHERNITSYN.pdf" target="_blank" rel="noopener noreferrer"
           className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           My Resume
