@@ -116,9 +116,9 @@ export const NavLinks = [
 export const Resume = [
 
   {
-    name: "/Resume_SergeiChernitsyn.pdf",
+    name: "/SERGEICHERNITSYN.pdf",
     icon: RxClipboard,
-    link: "/Resume_SergeiChernitsyn.pdf"
+    link: "/SERGEICHERNITSYN.pdf"
   },
  
 ];
